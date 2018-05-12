@@ -217,6 +217,18 @@ body {
   }
 
   @media screen and (max-width: 980px) {
+    #logo {
+      margin-left:20px;
+    }
+
+    nav {
+      margin-right: 20px;                                                  
+    }
+
+    .main-section {
+      width: 75%;
+      margin-left: 20px;
+    }
 
 }
 
@@ -228,14 +240,19 @@ body {
 @media screen and (max-width: 640px) {
 
   #logo {
+    margin-left: 0px;
     width: 100%;
   }
 
   nav {
     width: 100%;
+    text-align: center;
   }
 
-  body {
+  .main-section {
+    width: 100%;
+    margin-left: 0px;
   }
+
 }
   
